@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: html-txt-bot
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    envVars:
+      - key: TOKEN
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: OWNER
+        sync: false
+      - key: CREDIT
+        sync: false
