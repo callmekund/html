@@ -11,7 +11,7 @@ from pymongo import MongoClient
 import html
 
 # FIXED: Set your actual bot token here first
-TOKEN = "7796049328:AAEHEmqJ8ie6PLl3G3tbK_D6i-IOxBBr5X4"  # Replace with token from @BotFather
+TOKEN = ""  # Replace with token from @BotFather
 
 # MongoDB URI (fixed warning)
 MONGOURI = "mongodb+srv://editingtution99:kLKimOFEX1MN1v0G@cluster0.fxbujjd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
